@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "gol.h": "c"
+    },
+    "cmake.buildDirectory": "${workspaceFolder}/bin",
+    "cmake.sourceDirectory": "${workspaceFolder}/src"
+}

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/gameoflife.c
+stdio.h
+-
+gol.h
+C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/gol.h
+
+C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/libgol/gol.h
+
