@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
+  "../libgol.dll"
+  "../libgol.dll.manifest"
+  "../libgol.pdb"
   "CMakeFiles/gol.dir/gol.c.obj"
-  "libgol.dll"
   "libgol.dll.a"
-  "libgol.dll.manifest"
-  "libgol.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

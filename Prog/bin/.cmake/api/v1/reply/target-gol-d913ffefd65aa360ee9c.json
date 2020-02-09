@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "libgol/libgol.dll"
+			"path" : "libgol.dll"
 		},
 		{
 			"path" : "libgol/libgol.dll.a"
 		},
 		{
-			"path" : "libgol/libgol.pdb"
+			"path" : "libgol.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -41,7 +41,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -Wextra -pedantic -std=c11 -g   -std=gnu11"
+					"fragment" : " -Wall -Wextra -pedantic -std=c11   -std=gnu11"
 				}
 			],
 			"defines" : 

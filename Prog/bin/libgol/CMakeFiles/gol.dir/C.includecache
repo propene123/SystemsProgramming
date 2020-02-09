@@ -9,6 +9,10 @@
 C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/libgol/gol.c
 stdio.h
 -
+stdbool.h
+-
+stdlib.h
+-
 gol.h
 C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/libgol/gol.h
 

@@ -3,8 +3,8 @@
 
 struct universe {
 /*Put some appropriate things here*/
-    unsigned int height;
-    unsigned int width;
+    int height;
+    int width;
     char** board; // 2D dynamic array to represent board
 };
 
@@ -18,7 +18,6 @@ void evolve(struct universe *u, int (*rule)(struct universe *u, int column, int 
 void print_statistics(struct universe *u);
 /*You can modify after this line again*/
 
-void meepus();
 
 
 #endif

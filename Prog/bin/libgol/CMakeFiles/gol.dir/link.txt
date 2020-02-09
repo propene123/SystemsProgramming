@@ -1,3 +1,3 @@
 "C:\Program Files\CMake\bin\cmake.exe" -E remove -f CMakeFiles\gol.dir/objects.a
 C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\ar.exe cr CMakeFiles\gol.dir/objects.a @CMakeFiles\gol.dir\objects1.rsp
-C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe   -Wall -Wextra -pedantic -std=c11 -g  -shared -o libgol.dll -Wl,--out-implib,libgol.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\gol.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\gol.dir\linklibs.rsp
+C:\PROGRA~2\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gcc.exe   -Wall -Wextra -pedantic -std=c11  -shared -o ..\libgol.dll -Wl,--out-implib,libgol.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\gol.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\gol.dir\linklibs.rsp
