@@ -15,7 +15,7 @@ int getLine(char* buffer, int maxCount, FILE* file){
     while((in = getc(file)) != EOF) {
         if(count >= maxCount) break;
         if(in == '\n') break;
-        if(in != '*' || in != '.') {
+        if(in != '*' && in != '.') {
             count = -1;
             break;
         }
@@ -56,7 +56,7 @@ void read_in_file(FILE *infile, struct universe *u){
             fprintf(stderr, "Could not allocate memory for input file\n");
             exit(EXIT_FAILURE);
         }
-        memcpy(u->board[rows-1], buff, columns); // coppy from buffer to main board
+        memcpy(u->board[rows-1], buff, columns); // copy from buffer to main board
         // while there are still characters to read
         while((columnCount = getLine(buff, 513, infile)) != 0) {
             if(columnCount < 0 || columnCount != columns) {
@@ -82,7 +82,7 @@ void read_in_file(FILE *infile, struct universe *u){
                 fprintf(stderr, "Could not allocate memory for input file\n");
                 exit(EXIT_FAILURE);
             }
-            memcpy(u->board[rows-1], buff, columns); // coppy from buffer to main board
+            memcpy(u->board[rows-1], buff, columns); // copy from buffer to main board
         }
         u->height = rows;
         u->width = columns;
