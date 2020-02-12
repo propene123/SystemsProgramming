@@ -1,12 +1,12 @@
 [
 {
   "directory": "C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/bin",
-  "command": "C:\\PROGRA~2\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\gcc.exe  @CMakeFiles/GameOfLife.dir/includes_C.rsp  -Wall -Wextra -pedantic -std=c11   -std=gnu11 -o CMakeFiles\\GameOfLife.dir\\gameoflife.c.obj   -c \"C:\\Users\\Ben\\Documents\\programming\\Git Repositories\\Systems Programming\\Prog\\src\\gameoflife.c\"",
+  "command": "C:\\PROGRA~2\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\gcc.exe  @CMakeFiles/GameOfLife.dir/includes_C.rsp  -Wall -Wextra -pedantic -std=c11 -g   -std=gnu11 -o CMakeFiles\\GameOfLife.dir\\gameoflife.c.obj   -c \"C:\\Users\\Ben\\Documents\\programming\\Git Repositories\\Systems Programming\\Prog\\src\\gameoflife.c\"",
   "file": "C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/gameoflife.c"
 },
 {
   "directory": "C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/bin/libgol",
-  "command": "C:\\PROGRA~2\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\gcc.exe -Dgol_EXPORTS   -Wall -Wextra -pedantic -std=c11   -std=gnu11 -o CMakeFiles\\gol.dir\\gol.c.obj   -c \"C:\\Users\\Ben\\Documents\\programming\\Git Repositories\\Systems Programming\\Prog\\src\\libgol\\gol.c\"",
+  "command": "C:\\PROGRA~2\\mingw-w64\\i686-8.1.0-posix-dwarf-rt_v6-rev0\\mingw32\\bin\\gcc.exe -Dgol_EXPORTS   -Wall -Wextra -pedantic -std=c11 -g   -std=gnu11 -o CMakeFiles\\gol.dir\\gol.c.obj   -c \"C:\\Users\\Ben\\Documents\\programming\\Git Repositories\\Systems Programming\\Prog\\src\\libgol\\gol.c\"",
   "file": "C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/libgol/gol.c"
 }
 ]

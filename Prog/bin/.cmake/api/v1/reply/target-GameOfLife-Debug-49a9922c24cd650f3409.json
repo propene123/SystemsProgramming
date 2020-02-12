@@ -45,7 +45,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : " -Wall -Wextra -pedantic -std=c11   -std=gnu11"
+					"fragment" : " -Wall -Wextra -pedantic -std=c11 -g   -std=gnu11"
 				}
 			],
 			"includes" : 
@@ -75,7 +75,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-Wall -Wextra -pedantic -std=c11",
+				"fragment" : "-Wall -Wextra -pedantic -std=c11 -g",
 				"role" : "flags"
 			},
 			{
