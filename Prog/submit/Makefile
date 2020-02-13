@@ -4,9 +4,12 @@ DEPS = gol.h
 
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
+
+gol.o: gol.c $(DEPS)
+	$(CC) -c -o $@ $< -fPIC $(CFLAGS)
 	
 libgol.so: gol.o
-	$(CC) -o $@ $^ -fPIC -shared $(CFLAGS)
+	$(CC) -o $@ $^ -shared $(CFLAGS)
 	
 gameoflife: gameoflife.o libgol.so
 	$(CC) -o $@ $< -l:libgol.so $(CFLAGS)
