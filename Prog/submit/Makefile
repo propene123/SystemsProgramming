@@ -12,4 +12,7 @@ libgol.so: gol.o
 	$(CC) -o $@ $^ -shared $(CFLAGS)
 	
 gameoflife: gameoflife.o libgol.so
-	$(CC) -o $@ $< -L. -l:libgol.so $(CFLAGS)
+	$(CC) -o $@ $< -L. -lgol $(CFLAGS)
+	
+clean:
+	rm -rf gameoflife *.o *.so
