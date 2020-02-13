@@ -19,6 +19,8 @@ ctype.h
 -
 errno.h
 -
+limits.h
+-
 gol.h
 C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/gol.h
 

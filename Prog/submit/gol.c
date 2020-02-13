@@ -31,7 +31,7 @@ void freeBoard(char ***board, int rows) {
         free((*board)[i]);
         (*board)[i] = NULL;
     }
-    free(board);
+    free(*board);
     *board = NULL;
 }
 
