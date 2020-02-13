@@ -9,6 +9,16 @@
 C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/gameoflife.c
 stdio.h
 -
+stdbool.h
+-
+string.h
+-
+stdlib.h
+-
+ctype.h
+-
+errno.h
+-
 gol.h
 C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/gol.h
 
