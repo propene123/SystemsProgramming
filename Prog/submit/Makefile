@@ -2,6 +2,9 @@ CC = gcc
 CFLAGS := $(CFLAGS) -Wall -Wextra -Werror -pedantic -std=c11
 DEPS = gol.h
 
+gameoflife: gameoflife.o libgol.so
+	$(CC) -o $@ $< -L. -lgol $(CFLAGS)
+
 %.o: %.c $(DEPS)
 	$(CC) -c -o $@ $< $(CFLAGS)
 
@@ -11,8 +14,6 @@ gol.o: gol.c $(DEPS)
 libgol.so: gol.o
 	$(CC) -o $@ $^ -shared $(CFLAGS)
 	
-gameoflife: gameoflife.o libgol.so
-	$(CC) -o $@ $< -L. -lgol $(CFLAGS)
 	
 clean:
 	rm -rf gameoflife *.o *.so
