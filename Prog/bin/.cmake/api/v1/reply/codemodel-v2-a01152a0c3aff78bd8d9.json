@@ -58,14 +58,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "GameOfLife::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-GameOfLife-Debug-49a9922c24cd650f3409.json",
+					"jsonFile" : "target-GameOfLife-Debug-fcebc0783e8c34a84c5b.json",
 					"name" : "GameOfLife",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "gol::@4519e0b9b1a394746ac0",
-					"jsonFile" : "target-gol-Debug-35118598f3a9ebeb73bd.json",
+					"jsonFile" : "target-gol-Debug-99951a08cd2aab373d4c.json",
 					"name" : "gol",
 					"projectIndex" : 0
 				}
