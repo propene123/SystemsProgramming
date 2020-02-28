@@ -25,6 +25,9 @@ int getLine(char* buffer, int maxCount, FILE* file){
         buffer[count] = in;
         ++count;
     }
+    if(count == 0 && pChar == '\n'){
+        count = -1;
+    }
     if(count > 0 && pChar != '\n') {
         count = -1;
     }
@@ -135,9 +138,9 @@ int is_alive(struct universe *u, int column, int row){
 
 
 int will_be_alive(struct universe *u, int column, int row){
-    int aliveCount = 0;
-    for (int i = row - 1 ; i < row + 2; ++i) {
-        for (int j = column - 1;j < column +2;++j) {
+    long aliveCount = 0;
+    for (long i = row - 1 ; i < row + 2; ++i) {
+        for (long j = column - 1;j < column +2;++j) {
             if(i < 0 || j < 0 || i > (u->height-1) || j > (u->width - 1)) {
                 continue;
             }else if(is_alive(u, j, i)) {
