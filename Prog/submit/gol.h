@@ -6,9 +6,9 @@ struct universe {
 /*Put some appropriate things here*/
     int height;
     int width;
-    int generation;
-    int currentAlive;
-    int aliveTotal;
+    long generation;
+    long currentAlive;
+    long aliveTotal;
     char** board; // 2D dynamic array to represent board
 };
 
