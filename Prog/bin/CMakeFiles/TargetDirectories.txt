@@ -1,6 +1,6 @@
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/bin/CMakeFiles/edit_cache.dir
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/bin/CMakeFiles/GameOfLife.dir
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/bin/CMakeFiles/rebuild_cache.dir
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/bin/libgol/CMakeFiles/rebuild_cache.dir
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/bin/libgol/CMakeFiles/gol.dir
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/bin/libgol/CMakeFiles/edit_cache.dir
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/bin/CMakeFiles/rebuild_cache.dir
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/bin/CMakeFiles/GameOfLife.dir
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/bin/CMakeFiles/edit_cache.dir
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/bin/libgol/CMakeFiles/rebuild_cache.dir
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/bin/libgol/CMakeFiles/gol.dir
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/bin/libgol/CMakeFiles/edit_cache.dir

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/libgol/gol.c
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/src/libgol/gol.c
 stdio.h
 -
 stdbool.h
@@ -16,7 +16,7 @@ stdlib.h
 string.h
 -
 gol.h
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/libgol/gol.h
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/src/libgol/gol.h
 
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/libgol/gol.h
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/src/libgol/gol.h
 

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/gameoflife.c
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/src/gameoflife.c
 stdio.h
 -
 stdbool.h
@@ -22,7 +22,7 @@ errno.h
 limits.h
 -
 gol.h
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/gol.h
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/src/gol.h
 
-C:/Users/Ben/Documents/programming/Git Repositories/Systems Programming/Prog/src/libgol/gol.h
+/home/ben/Documents/git repositories/SystemsProgramming/Prog/src/libgol/gol.h
 

@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/GameOfLife.dir/gameoflife.c.obj"
-  "GameOfLife.exe"
-  "GameOfLife.exe.manifest"
+  "CMakeFiles/GameOfLife.dir/gameoflife.c.o"
   "GameOfLife.pdb"
-  "libGameOfLife.dll.a"
+  "GameOfLife"
 )
 
 # Per-language clean rules from dependency scanning.
