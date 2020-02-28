@@ -12,7 +12,9 @@
 int getLine(char* buffer, int maxCount, FILE* file){
     int count = 0;
     int in = '\0';
+    char pChar = '\0';
     while((in = getc(file)) != EOF) {
+        pChar = in;
         if(count >= maxCount) break;
         if(in == '\r') continue;
         if(in == '\n') break;
@@ -22,6 +24,9 @@ int getLine(char* buffer, int maxCount, FILE* file){
         }
         buffer[count] = in;
         ++count;
+    }
+    if(count > 0 && pChar != '\n') {
+        count = -1;
     }
     return count;
 }
