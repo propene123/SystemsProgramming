@@ -2095,6 +2095,7 @@ locale_t	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Pr
 loff_t	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@sys@types.h	/^typedef __loff_t loff_t;$/;"	t	typeref:typename:__loff_t
 main	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@gameoflife.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 main	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gameoflife.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@meep.c	/^int main() {$/;"	f	typeref:typename:int
 main	bin/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
 main	bin/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
 main	bin/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
@@ -2103,6 +2104,7 @@ main	bin/CMakeFiles/feature_tests.cxx	/^int main(int argc, char** argv) { (void)
 main	example/gameoflife.c	/^int main(int argc, char argv[]){$/;"	f	typeref:typename:int
 main	src/gameoflife.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 main	submit/gameoflife.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
+main	submit/meep.c	/^int main() {$/;"	f	typeref:typename:int
 major	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@sys@sysmacros.h	/^# define major(/;"	d
 major	bin/.cmake/api/v1/reply/cache-v2-854dfb11079d4b3466eb.json	/^		"major" : 2,$/;"	n	object:version
 major	bin/.cmake/api/v1/reply/codemodel-v2-a01152a0c3aff78bd8d9.json	/^		"major" : 2,$/;"	n	object:version
