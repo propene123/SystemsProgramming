@@ -167,15 +167,15 @@ int will_be_alive_torus(struct universe *u,  int column, int row){
         for (long j = column - 1;j < column +2;++j) {
             long r = i;
             long c = j;
-            if(i == -1) {
-                r = u->height-1;
-            }else if(i == u->height) {
-                r = 0;
+            if(i <= -1) {
+                r = u->height + i%u->height;
+            }else if(i >= u->height) {
+                r = i%u->height;
             }
-            if(j == -1) {
-                c = u->width-1;
-            }else if(j == u->width) {
-                c = 0;
+            if(j <= -1) {
+                c = labs(j%u->width);
+            }else if(j >= u->width) {
+                c = u->width + j%u->width;
             }
             if(is_alive(u, c, r)) {
                 ++aliveCount;

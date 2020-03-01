@@ -1798,9 +1798,9 @@ _vtable_offset	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramm
 _wide_data	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@bits@libio.h	/^  struct _IO_wide_data *_wide_data;$/;"	m	struct:_IO_FILE_complete	typeref:struct:_IO_wide_data *
 _wide_vtable	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@bits@libio.h	/^  const struct _IO_jump_t *_wide_vtable;$/;"	m	struct:_IO_wide_data	typeref:typename:const struct _IO_jump_t *
 aliveTotal	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^    int aliveTotal;$/;"	m	struct:universe	typeref:typename:int
-aliveTotal	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    int aliveTotal;$/;"	m	struct:universe	typeref:typename:int
+aliveTotal	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    long aliveTotal;$/;"	m	struct:universe	typeref:typename:long
 aliveTotal	src/libgol/gol.h	/^    int aliveTotal;$/;"	m	struct:universe	typeref:typename:int
-aliveTotal	submit/gol.h	/^    int aliveTotal;$/;"	m	struct:universe	typeref:typename:int
+aliveTotal	submit/gol.h	/^    long aliveTotal;$/;"	m	struct:universe	typeref:typename:long
 all	bin/Makefile	/^all: cmake_check_build_system$/;"	t
 all	bin/libgol/Makefile	/^all: cmake_check_build_system$/;"	t
 alloca	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@alloca.h	/^# define alloca(/;"	d
@@ -1876,9 +1876,9 @@ cookie_write_function_t	.ccls-cache/@@home@ben@Documents@git repositories@System
 cpack	bin/.cmake/api/v1/reply/index-2020-02-13T14-14-11-0073.json	/^			"cpack" : "C:\/Program Files\/CMake\/bin\/cpack.exe",$/;"	s	object:cmake.paths
 ctest	bin/.cmake/api/v1/reply/index-2020-02-13T14-14-11-0073.json	/^			"ctest" : "C:\/Program Files\/CMake\/bin\/ctest.exe",$/;"	s	object:cmake.paths
 currentAlive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^    int currentAlive;$/;"	m	struct:universe	typeref:typename:int
-currentAlive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    int currentAlive;$/;"	m	struct:universe	typeref:typename:int
+currentAlive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    long currentAlive;$/;"	m	struct:universe	typeref:typename:long
 currentAlive	src/libgol/gol.h	/^    int currentAlive;$/;"	m	struct:universe	typeref:typename:int
-currentAlive	submit/gol.h	/^    int currentAlive;$/;"	m	struct:universe	typeref:typename:int
+currentAlive	submit/gol.h	/^    long currentAlive;$/;"	m	struct:universe	typeref:typename:long
 daddr_t	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@sys@types.h	/^typedef __daddr_t daddr_t;$/;"	t	typeref:typename:__daddr_t
 default_target	bin/Makefile	/^default_target: all$/;"	t
 default_target	bin/libgol/Makefile	/^default_target: all$/;"	t
@@ -1962,14 +1962,14 @@ gameoflife.i	bin/Makefile	/^gameoflife.i: gameoflife.c.i$/;"	t
 gameoflife.o	bin/Makefile	/^gameoflife.o: gameoflife.c.o$/;"	t
 gameoflife.s	bin/Makefile	/^gameoflife.s: gameoflife.c.s$/;"	t
 generation	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^    int generation;$/;"	m	struct:universe	typeref:typename:int
-generation	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    int generation;$/;"	m	struct:universe	typeref:typename:int
+generation	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    long generation;$/;"	m	struct:universe	typeref:typename:long
 generation	src/libgol/gol.h	/^    int generation;$/;"	m	struct:universe	typeref:typename:int
-generation	submit/gol.h	/^    int generation;$/;"	m	struct:universe	typeref:typename:int
+generation	submit/gol.h	/^    long generation;$/;"	m	struct:universe	typeref:typename:long
 generator	bin/.cmake/api/v1/reply/index-2020-02-13T14-14-11-0073.json	/^		"generator" : $/;"	o	object:cmake
 getAliveCount	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^int getAliveCount(struct universe *u) {$/;"	f	typeref:typename:int
-getAliveCount	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^int getAliveCount(struct universe *u) {$/;"	f	typeref:typename:int
+getAliveCount	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^long getAliveCount(struct universe *u) {$/;"	f	typeref:typename:long
 getAliveCount	src/libgol/gol.c	/^int getAliveCount(struct universe *u) {$/;"	f	typeref:typename:int
-getAliveCount	submit/gol.c	/^int getAliveCount(struct universe *u) {$/;"	f	typeref:typename:int
+getAliveCount	submit/gol.c	/^long getAliveCount(struct universe *u) {$/;"	f	typeref:typename:long
 getLine	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^int getLine(char* buffer, int maxCount, FILE* file){$/;"	f	typeref:typename:int
 getLine	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^int getLine(char* buffer, int maxCount, FILE* file){$/;"	f	typeref:typename:int
 getLine	src/libgol/gol.c	/^int getLine(char* buffer, int maxCount, FILE* file){$/;"	f	typeref:typename:int
@@ -2104,7 +2104,6 @@ main	bin/CMakeFiles/feature_tests.cxx	/^int main(int argc, char** argv) { (void)
 main	example/gameoflife.c	/^int main(int argc, char argv[]){$/;"	f	typeref:typename:int
 main	src/gameoflife.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 main	submit/gameoflife.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
-main	submit/meep.c	/^int main() {$/;"	f	typeref:typename:int
 major	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@sys@sysmacros.h	/^# define major(/;"	d
 major	bin/.cmake/api/v1/reply/cache-v2-854dfb11079d4b3466eb.json	/^		"major" : 2,$/;"	n	object:version
 major	bin/.cmake/api/v1/reply/codemodel-v2-a01152a0c3aff78bd8d9.json	/^		"major" : 2,$/;"	n	object:version

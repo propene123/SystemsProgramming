@@ -45,7 +45,7 @@ int main(int argc, char** argv) {
             if(i < argc - 1) {
                 ++i;
                 if (infile != NULL && strcmp(infile, argv[i])) {
-                    fprintf(stderr, "-i flag repeated with different arguments");
+                    fprintf(stderr, "-i flag repeated with different arguments\n");
                     exit(EXIT_FAILURE);
                 }
                 infile = argv[i];
@@ -58,7 +58,7 @@ int main(int argc, char** argv) {
             if(i < argc - 1) {
                 ++i;
                 if(outfile != NULL && strcmp(outfile, argv[i])) {
-                    fprintf(stderr, "-o flag repeated with different arguments");
+                    fprintf(stderr, "-o flag repeated with different arguments\n");
                     exit(EXIT_FAILURE);
                 }
                 outfile = argv[i];
@@ -82,7 +82,7 @@ int main(int argc, char** argv) {
                 }
                 ++gCount;
                 if (gCount == 2 && (int) tmp != generations) {
-                    fprintf(stderr, "-g flag repeated with different arguments");
+                    fprintf(stderr, "-g flag repeated with different arguments\n");
                     exit(EXIT_FAILURE);
                 }
                 generations = (int) tmp;
@@ -141,13 +141,6 @@ int main(int argc, char** argv) {
     }else {
         write_out_file(stdout, &u);
     }
-
-    for(int i = 0;i<u.height;++i) {
-        free(u.board[i]);
-        u.board[i] = NULL;
-    }
-    free(u.board);
-    u.board = NULL;
 
     return 0;
 }
