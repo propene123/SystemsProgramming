@@ -25,6 +25,9 @@ int getLine(char* buffer, int maxCount, FILE* file){
         buffer[count] = in;
         ++count;
     }
+    if(count == 0 && pChar == '\n'){
+        count = -1;
+    }
     if(count > 0 && pChar != '\n') {
         count = -1;
     }
@@ -41,10 +44,10 @@ void freeBoard(char ***board, int rows) {
     *board = NULL;
 }
 
-int getAliveCount(struct universe *u) {
-    int count = 0;
-    for(int i = 0;i<u->height;++i) {
-        for(int j = 0;j<u->width;++j){
+long getAliveCount(struct universe *u) {
+    long count = 0;
+    for(long i = 0;i<u->height;++i) {
+        for(long j = 0;j<u->width;++j){
             if(u->board[i][j] == '*'){
                 ++count;
             }
@@ -135,9 +138,9 @@ int is_alive(struct universe *u, int column, int row){
 
 
 int will_be_alive(struct universe *u, int column, int row){
-    int aliveCount = 0;
-    for (int i = row - 1 ; i < row + 2; ++i) {
-        for (int j = column - 1;j < column +2;++j) {
+    long aliveCount = 0;
+    for (long i = row - 1 ; i < row + 2; ++i) {
+        for (long j = column - 1;j < column +2;++j) {
             if(i < 0 || j < 0 || i > (u->height-1) || j > (u->width - 1)) {
                 continue;
             }else if(is_alive(u, j, i)) {
@@ -160,10 +163,10 @@ int will_be_alive(struct universe *u, int column, int row){
 
 int will_be_alive_torus(struct universe *u,  int column, int row){
     int aliveCount = 0;
-    for (int i = row - 1 ; i < row + 2; ++i) {
-        for (int j = column - 1;j < column +2;++j) {
-            int r = i;
-            int c = j;
+    for (long i = row - 1 ; i < row + 2; ++i) {
+        for (long j = column - 1;j < column +2;++j) {
+            long r = i;
+            long c = j;
             if(i == -1) {
                 r = u->height-1;
             }else if(i == u->height) {
