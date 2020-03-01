@@ -142,13 +142,6 @@ int main(int argc, char** argv) {
         write_out_file(stdout, &u);
     }
 
-    for(int i = 0;i<u.height;++i) {
-        free(u.board[i]);
-        u.board[i] = NULL;
-    }
-    free(u.board);
-    u.board = NULL;
-
     return 0;
 }
 
