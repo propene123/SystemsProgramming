@@ -1,5 +1,5 @@
 CC = gcc
-override CFLAGS := $(CFLAGS) -Wall -Wextra -Werror -pedantic -std=c11
+override CFLAGS := $(CFLAGS) -Wall -Wextra -pedantic -std=c11
 DEPS = gol.h
 
 gameoflife: gameoflife.o libgol.so

@@ -669,6 +669,7 @@ FILENAME_MAX	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgrammin
 FOPEN_MAX	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@bits@stdio_lim.h	/^#define FOPEN_MAX /;"	d
 GOL_H	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^#define GOL_H$/;"	d
 GOL_H	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^#define GOL_H$/;"	d
+GOL_H	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.h	/^#define GOL_H$/;"	d
 GOL_H	src/libgol/gol.h	/^#define GOL_H$/;"	d
 GOL_H	submit/gol.h	/^#define GOL_H$/;"	d
 GOL_H	submit/whatidid/gol.h	/^#define GOL_H$/;"	d
@@ -1803,6 +1804,7 @@ _wide_data	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@
 _wide_vtable	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@bits@libio.h	/^  const struct _IO_jump_t *_wide_vtable;$/;"	m	struct:_IO_wide_data	typeref:typename:const struct _IO_jump_t *
 aliveTotal	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^    int aliveTotal;$/;"	m	struct:universe	typeref:typename:int
 aliveTotal	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    long aliveTotal;$/;"	m	struct:universe	typeref:typename:long
+aliveTotal	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.h	/^    long aliveTotal;$/;"	m	struct:universe	typeref:typename:long
 aliveTotal	src/libgol/gol.h	/^    int aliveTotal;$/;"	m	struct:universe	typeref:typename:int
 aliveTotal	submit/gol.h	/^    long aliveTotal;$/;"	m	struct:universe	typeref:typename:long
 aliveTotal	submit/whatidid/gol.h	/^    long aliveTotal;$/;"	m	struct:universe	typeref:typename:long
@@ -1828,6 +1830,7 @@ blkcnt_t	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Pr
 blksize_t	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@sys@types.h	/^typedef __blksize_t blksize_t;$/;"	t	typeref:typename:__blksize_t
 board	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^    char** board; \/\/ 2D dynamic array to represent board$/;"	m	struct:universe	typeref:typename:char **
 board	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    char** board; \/\/ 2D dynamic array to represent board$/;"	m	struct:universe	typeref:typename:char **
+board	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.h	/^    char** board; \/\/ 2D dynamic array to represent board$/;"	m	struct:universe	typeref:typename:char **
 board	src/libgol/gol.h	/^    char** board; \/\/ 2D dynamic array to represent board$/;"	m	struct:universe	typeref:typename:char **
 board	submit/gol.h	/^    char** board; \/\/ 2D dynamic array to represent board$/;"	m	struct:universe	typeref:typename:char **
 board	submit/whatidid/gol.h	/^    char** board; \/\/ 2D dynamic array to represent board$/;"	m	struct:universe	typeref:typename:char **
@@ -1884,6 +1887,7 @@ cpack	bin/.cmake/api/v1/reply/index-2020-02-13T14-14-11-0073.json	/^			"cpack" :
 ctest	bin/.cmake/api/v1/reply/index-2020-02-13T14-14-11-0073.json	/^			"ctest" : "C:\/Program Files\/CMake\/bin\/ctest.exe",$/;"	s	object:cmake.paths
 currentAlive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^    int currentAlive;$/;"	m	struct:universe	typeref:typename:int
 currentAlive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    long currentAlive;$/;"	m	struct:universe	typeref:typename:long
+currentAlive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.h	/^    long currentAlive;$/;"	m	struct:universe	typeref:typename:long
 currentAlive	src/libgol/gol.h	/^    int currentAlive;$/;"	m	struct:universe	typeref:typename:int
 currentAlive	submit/gol.h	/^    long currentAlive;$/;"	m	struct:universe	typeref:typename:long
 currentAlive	submit/whatidid/gol.h	/^    long currentAlive;$/;"	m	struct:universe	typeref:typename:long
@@ -1916,6 +1920,7 @@ errno	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/
 error_t	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@errno.h	/^typedef int error_t;$/;"	t	typeref:typename:int
 evolve	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^void evolve(struct universe *u, int (*rule)(struct universe *u, int column, int row)){$/;"	f	typeref:typename:void
 evolve	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^void evolve(struct universe *u, int (*rule)(struct universe *u, int column, int row)){$/;"	f	typeref:typename:void
+evolve	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.c	/^void evolve(struct universe *u, int (*rule)(struct universe *u, int column, int row)){$/;"	f	typeref:typename:void
 evolve	src/libgol/gol.c	/^void evolve(struct universe *u, int (*rule)(struct universe *u, int column, int row)){$/;"	f	typeref:typename:void
 evolve	submit/gol.c	/^void evolve(struct universe *u, int (*rule)(struct universe *u, int column, int row)){$/;"	f	typeref:typename:void
 evolve	submit/whatidid/gol.c	/^void evolve(struct universe *u, int (*rule)(struct universe *u, int column, int row)){$/;"	f	typeref:typename:void
@@ -1949,6 +1954,7 @@ fragment	bin/.cmake/api/v1/reply/target-gol-Debug-99951a08cd2aab373d4c.json	/^		
 fragment	bin/.cmake/api/v1/reply/target-gol-Debug-99951a08cd2aab373d4c.json	/^				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lc/;"	s	object:link.commandFragments.0
 freeBoard	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^void freeBoard(char ***board, int rows) {$/;"	f	typeref:typename:void
 freeBoard	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^void freeBoard(char ***board, int rows) {$/;"	f	typeref:typename:void
+freeBoard	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.c	/^void freeBoard(char ***board, int rows) {$/;"	f	typeref:typename:void
 freeBoard	src/libgol/gol.c	/^void freeBoard(char ***board, int rows) {$/;"	f	typeref:typename:void
 freeBoard	submit/gol.c	/^void freeBoard(char ***board, int rows) {$/;"	f	typeref:typename:void
 freeBoard	submit/whatidid/gol.c	/^void freeBoard(char ***board, int rows) {$/;"	f	typeref:typename:void
@@ -1974,17 +1980,20 @@ gameoflife.o	bin/Makefile	/^gameoflife.o: gameoflife.c.o$/;"	t
 gameoflife.s	bin/Makefile	/^gameoflife.s: gameoflife.c.s$/;"	t
 generation	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^    int generation;$/;"	m	struct:universe	typeref:typename:int
 generation	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    long generation;$/;"	m	struct:universe	typeref:typename:long
+generation	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.h	/^    long generation;$/;"	m	struct:universe	typeref:typename:long
 generation	src/libgol/gol.h	/^    int generation;$/;"	m	struct:universe	typeref:typename:int
 generation	submit/gol.h	/^    long generation;$/;"	m	struct:universe	typeref:typename:long
 generation	submit/whatidid/gol.h	/^    long generation;$/;"	m	struct:universe	typeref:typename:long
 generator	bin/.cmake/api/v1/reply/index-2020-02-13T14-14-11-0073.json	/^		"generator" : $/;"	o	object:cmake
 getAliveCount	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^int getAliveCount(struct universe *u) {$/;"	f	typeref:typename:int
 getAliveCount	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^long getAliveCount(struct universe *u) {$/;"	f	typeref:typename:long
+getAliveCount	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.c	/^long getAliveCount(struct universe *u) {$/;"	f	typeref:typename:long
 getAliveCount	src/libgol/gol.c	/^int getAliveCount(struct universe *u) {$/;"	f	typeref:typename:int
 getAliveCount	submit/gol.c	/^long getAliveCount(struct universe *u) {$/;"	f	typeref:typename:long
 getAliveCount	submit/whatidid/gol.c	/^long getAliveCount(struct universe *u) {$/;"	f	typeref:typename:long
 getLine	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^int getLine(char* buffer, int maxCount, FILE* file){$/;"	f	typeref:typename:int
 getLine	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^int getLine(char* buffer, int maxCount, FILE* file){$/;"	f	typeref:typename:int
+getLine	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.c	/^int getLine(char* buffer, int maxCount, FILE* file){$/;"	f	typeref:typename:int
 getLine	src/libgol/gol.c	/^int getLine(char* buffer, int maxCount, FILE* file){$/;"	f	typeref:typename:int
 getLine	submit/gol.c	/^int getLine(char* buffer, int maxCount, FILE* file){$/;"	f	typeref:typename:int
 getLine	submit/whatidid/gol.c	/^int getLine(char* buffer, int maxCount, FILE* file){$/;"	f	typeref:typename:int
@@ -2005,6 +2014,7 @@ gol/fast	bin/Makefile	/^gol\/fast:$/;"	t
 gol/fast	bin/libgol/Makefile	/^gol\/fast:$/;"	t
 height	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^    int height;$/;"	m	struct:universe	typeref:typename:int
 height	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    int height;$/;"	m	struct:universe	typeref:typename:int
+height	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.h	/^    int height;$/;"	m	struct:universe	typeref:typename:int
 height	src/libgol/gol.h	/^    int height;$/;"	m	struct:universe	typeref:typename:int
 height	submit/gol.h	/^    int height;$/;"	m	struct:universe	typeref:typename:int
 height	submit/whatidid/gol.h	/^    int height;$/;"	m	struct:universe	typeref:typename:int
@@ -2054,11 +2064,13 @@ int8_t	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog
 isDirty	bin/.cmake/api/v1/reply/index-2020-02-13T14-14-11-0073.json	/^			"isDirty" : false,$/;"	b	object:cmake.version
 isNum	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@gameoflife.c	/^bool isNum(const char* str) {$/;"	f	typeref:typename:bool
 isNum	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gameoflife.c	/^bool isNum(const char* str) {$/;"	f	typeref:typename:bool
+isNum	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gameoflife.c	/^bool isNum(const char* str) {$/;"	f	typeref:typename:bool
 isNum	src/gameoflife.c	/^bool isNum(const char* str) {$/;"	f	typeref:typename:bool
 isNum	submit/gameoflife.c	/^bool isNum(const char* str) {$/;"	f	typeref:typename:bool
 isNum	submit/whatidid/gameoflife.c	/^bool isNum(const char* str) {$/;"	f	typeref:typename:bool
 is_alive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^int is_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
 is_alive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^int is_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
+is_alive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.c	/^int is_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
 is_alive	src/libgol/gol.c	/^int is_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
 is_alive	submit/gol.c	/^int is_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
 is_alive	submit/whatidid/gol.c	/^int is_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
@@ -2115,6 +2127,7 @@ loff_t	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog
 main	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@gameoflife.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 main	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gameoflife.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 main	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@meep.c	/^int main() {$/;"	f	typeref:typename:int
+main	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gameoflife.c	/^int main(int argc, char** argv) {$/;"	f	typeref:typename:int
 main	bin/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^int main(argc, argv) int argc; char *argv[];$/;"	f
 main	bin/CMakeFiles/3.10.2/CompilerIdC/CMakeCCompilerId.c	/^void main() {}$/;"	f	typeref:typename:void
 main	bin/CMakeFiles/3.10.2/CompilerIdCXX/CMakeCXXCompilerId.cpp	/^int main(int argc, char* argv[])$/;"	f	typeref:typename:int
@@ -2426,6 +2439,7 @@ preinstall/fast	bin/Makefile	/^preinstall\/fast:$/;"	t
 preinstall/fast	bin/libgol/Makefile	/^preinstall\/fast:$/;"	t
 print_statistics	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^void print_statistics(struct universe *u){$/;"	f	typeref:typename:void
 print_statistics	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^void print_statistics(struct universe *u){$/;"	f	typeref:typename:void
+print_statistics	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.c	/^void print_statistics(struct universe *u){$/;"	f	typeref:typename:void
 print_statistics	src/libgol/gol.c	/^void print_statistics(struct universe *u){$/;"	f	typeref:typename:void
 print_statistics	submit/gol.c	/^void print_statistics(struct universe *u){$/;"	f	typeref:typename:void
 print_statistics	submit/whatidid/gol.c	/^void print_statistics(struct universe *u){$/;"	f	typeref:typename:void
@@ -2551,6 +2565,7 @@ random_data	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming
 read	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@bits@libio.h	/^  __io_read_fn *read;		\/* Read bytes.  *\/$/;"	m	struct:__anon85fa613e0108	typeref:typename:__io_read_fn *
 read_in_file	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^void read_in_file(FILE *infile, struct universe *u){$/;"	f	typeref:typename:void
 read_in_file	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^void read_in_file(FILE *infile, struct universe *u){$/;"	f	typeref:typename:void
+read_in_file	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.c	/^void read_in_file(FILE *infile, struct universe *u){$/;"	f	typeref:typename:void
 read_in_file	src/libgol/gol.c	/^void read_in_file(FILE *infile, struct universe *u){$/;"	f	typeref:typename:void
 read_in_file	submit/gol.c	/^void read_in_file(FILE *infile, struct universe *u){$/;"	f	typeref:typename:void
 read_in_file	submit/whatidid/gol.c	/^void read_in_file(FILE *infile, struct universe *u){$/;"	f	typeref:typename:void
@@ -2742,6 +2757,7 @@ uint	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@
 ulong	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@sys@types.h	/^typedef unsigned long int ulong;$/;"	t	typeref:typename:unsigned long int
 universe	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^struct universe {$/;"	s
 universe	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^struct universe {$/;"	s
+universe	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.h	/^struct universe {$/;"	s
 universe	src/libgol/gol.h	/^struct universe {$/;"	s
 universe	submit/gol.h	/^struct universe {$/;"	s
 universe	submit/whatidid/gol.h	/^struct universe {$/;"	s
@@ -2999,16 +3015,19 @@ vscanf	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog
 vsscanf	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@stdio.h	/^#   define vsscanf /;"	d
 width	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.h	/^    int width;$/;"	m	struct:universe	typeref:typename:int
 width	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.h	/^    int width;$/;"	m	struct:universe	typeref:typename:int
+width	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.h	/^    int width;$/;"	m	struct:universe	typeref:typename:int
 width	src/libgol/gol.h	/^    int width;$/;"	m	struct:universe	typeref:typename:int
 width	submit/gol.h	/^    int width;$/;"	m	struct:universe	typeref:typename:int
 width	submit/whatidid/gol.h	/^    int width;$/;"	m	struct:universe	typeref:typename:int
 will_be_alive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^int will_be_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
 will_be_alive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^int will_be_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
+will_be_alive	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.c	/^int will_be_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
 will_be_alive	src/libgol/gol.c	/^int will_be_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
 will_be_alive	submit/gol.c	/^int will_be_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
 will_be_alive	submit/whatidid/gol.c	/^int will_be_alive(struct universe *u, int column, int row){$/;"	f	typeref:typename:int
 will_be_alive_torus	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^int will_be_alive_torus(struct universe *u,  int column, int row){$/;"	f	typeref:typename:int
 will_be_alive_torus	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^int will_be_alive_torus(struct universe *u,  int column, int row){$/;"	f	typeref:typename:int
+will_be_alive_torus	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.c	/^int will_be_alive_torus(struct universe *u,  int column, int row){$/;"	f	typeref:typename:int
 will_be_alive_torus	src/libgol/gol.c	/^int will_be_alive_torus(struct universe *u,  int column, int row){$/;"	f	typeref:typename:int
 will_be_alive_torus	submit/gol.c	/^int will_be_alive_torus(struct universe *u,  int column, int row){$/;"	f	typeref:typename:int
 will_be_alive_torus	submit/whatidid/gol.c	/^int will_be_alive_torus(struct universe *u,  int column, int row){$/;"	f	typeref:typename:int
@@ -3016,6 +3035,7 @@ wint_t	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog
 write	.ccls-cache/@@home@ben@Documents@git repositories@SystemsProgramming@Prog/@usr@include@x86_64-linux-gnu@bits@libio.h	/^  __io_write_fn *write;		\/* Write bytes.  *\/$/;"	m	struct:__anon85fa613e0108	typeref:typename:__io_write_fn *
 write_out_file	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/src@libgol@gol.c	/^void write_out_file(FILE *outfile, struct universe *u){$/;"	f	typeref:typename:void
 write_out_file	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@gol.c	/^void write_out_file(FILE *outfile, struct universe *u){$/;"	f	typeref:typename:void
+write_out_file	.ccls-cache/@home@ben@Documents@git repositories@SystemsProgramming@Prog/submit@whatidid@gol.c	/^void write_out_file(FILE *outfile, struct universe *u){$/;"	f	typeref:typename:void
 write_out_file	src/libgol/gol.c	/^void write_out_file(FILE *outfile, struct universe *u){$/;"	f	typeref:typename:void
 write_out_file	submit/gol.c	/^void write_out_file(FILE *outfile, struct universe *u){$/;"	f	typeref:typename:void
 write_out_file	submit/whatidid/gol.c	/^void write_out_file(FILE *outfile, struct universe *u){$/;"	f	typeref:typename:void
